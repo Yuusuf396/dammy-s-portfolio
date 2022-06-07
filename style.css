@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans:wght@300&family=Outfit:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+     
+    color: #fff;
+    background: #6495ED;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+ 
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #003366;
+}
+
+.header{
+    line-height: 1.5;
+    padding: auto;
+    margin: 15px;
+    padding: 20px 20px;
+    background: #003366;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.nav_links{
+    color: #fff;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+     
+}
+
+.nav_links:hover{
+    color: #6495ED;
+    transition: 0.1s;
+}
+/* .logo{
+ line-height: 1.5;
+ padding: auto;
+ margin: 15px;
+ padding: 20px 20px;
+ background: #003366;
+ color: #fff;
+} */
+
+main{
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+}
+
+.ownername{
+    color:  #00264d;
+    display: flex;
+    justify-self: center;
+    align-self: center; 
+    font-size: 30px;
+    padding-bottom: 15px;
+    
+}
+
+.footer_link{
+    text-decoration: none;
+    color: #94b8b8;
+
+}
+.btn_contact_me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    color: #003366;
+    background:#94b8b8 ;
+    border: none;
+}
+
+.btn_contact_link{
+    text-decoration: none;
+
+}
+
+.btn_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTACT */
+
+.container_contact_form{
+    background: #94b8b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .contact_form{
+    background: #94b8b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.submit{
+    line-height: 1.5;
+    padding: auto;
+    margin: 15px;
+     
+    background: #003366;
+    color: #fff;
+}
+
+.submit__{
+    line-height: 1.5;
+    padding: auto;
+    margin: 15px;
+     padding: 20px 20px;
+    background: #003366;
+    color: #fff;
+}
+
+.registration_form{
+    background: #94b8b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
